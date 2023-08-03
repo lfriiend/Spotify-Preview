@@ -55,3 +55,7 @@ export interface MusicPreviewProps {
   selectedTrack: Track | null;
   setSelectedTrack: (track: Track | null) => void;
 }
+
+export interface HomeProps {
+  playlist: SpotifyPlaylist;
+}
